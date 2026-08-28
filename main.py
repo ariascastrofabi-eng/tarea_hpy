@@ -65,8 +65,8 @@ match op:
         contraseña=input("INGRESA LA CONTRASEÑA: ").strip()
         valida_contra(contraseña)
     case 10:
-        nombre=input("INGRESA TU NOMBRE")
-        apellido=input("INGRESA TU APELLIDO")
+        nombre=input("INGRESA TU NOMBRE").upper().strip()
+        apellido=input("INGRESA TU APELLIDO").upper().strip()
         nombres_mayuscula(nombre,apellido)
     case 11:
         frase=input("INGRESA UNA FRASE: ")
