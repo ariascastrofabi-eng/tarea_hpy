@@ -5,3 +5,8 @@ def valida_palabras(p):
         print(True)
     else:
         print(False)
+def mayuscula(pa):
+    no=pa.capitalize()
+    print(no)
+def nombres_mayuscula(nombres,apellidos):
+    print(f"{nombres} {apellidos}")
