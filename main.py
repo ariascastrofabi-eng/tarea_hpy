@@ -55,7 +55,7 @@ match op:
         numero_par(n_par)
     case 7:
         num=int(input("INGRESA UN NUMERO PARA VER EL MAYOR: "))
-        num1=int(input("INGRESA UN NUMERO PARA VER EL MAYOR:"))
+        num1=int(input("INGRESA UN NUMERO PARA VER EL MAYOR: "))
         num2=int(input("INGRESA UN NUMERO PARA VER EL MAYOR: "))
         numero_mayor(num,num1,num2)
     case 8:
@@ -65,8 +65,8 @@ match op:
         contraseña=input("INGRESA LA CONTRASEÑA: ").strip()
         valida_contra(contraseña)
     case 10:
-        nombre=input("INGRESA TU NOMBRE").upper().strip()
-        apellido=input("INGRESA TU APELLIDO").upper().strip()
+        nombre=input("INGRESA TU NOMBRE: ").upper().strip()
+        apellido=input("INGRESA TU APELLIDO: ").upper().strip()
         nombres_mayuscula(nombre,apellido)
     case 11:
         frase=input("INGRESA UNA FRASE: ")
