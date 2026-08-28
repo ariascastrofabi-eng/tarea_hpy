@@ -30,7 +30,6 @@ print("18.Cantidad de minutos")
 print("19.Valida contraseña y clave")
 print("="*60)
 op=int(input("INGRESA EL EJERCICIO: "))
-
 match op:
     case 1:
         n1=int(input("INGRESA UN NUMERO PARA RESTAR: "))
@@ -96,7 +95,6 @@ match op:
     case 19:
         usuario=input("INGRESA EL USUARIO: ").strip().lower()
         clave=input("INGRESA LA CLAVE: ").strip()
-
         verificar(usuario,clave)
     case _:
         print("no hay mas opciones que de 1,19")
